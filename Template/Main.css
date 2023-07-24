@@ -1,0 +1,244 @@
+@font-face {
+  font-family: 'AnimeAce';
+  src: url('path-to-your-font/AnimeAce.woff2') format('woff2'),
+       url('path-to-your-font/AnimeAce.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  overflow: hidden;
+  font-family: 'Manga Temple', sans-serif;
+                                                
+                                          
+  font-weight: normal;
+  font-size: 2.3vmin;
+  color: rgb(240, 18, 103);
+  user-select: none;
+}
+
+scene {
+  width: 1280px;
+  height: 720px;
+  display: inline-block;
+  position: absolute;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  /* position: fixed; */
+}
+
+speech{
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: 0px;
+  left: 0%;
+  transform: translate(50% -50%);
+  color: antiquewhite;
+  width: 1280px;
+  height: 720px;
+  bottom: 0px;
+  left: 0px;
+  color: rgb(3, 3, 3);
+  background-color: rgba(3, 24, 82, 0.745);
+  width: 100%;
+  height: 15%;
+}
+
+
+
+content {
+  top: 30%;
+  /*bottom: 1%;*/
+  left: 1%;
+  right: 20%;
+  position: absolute;
+  font-size: 100%;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+
+/** SPLASH SCREEN STYLE **/
+dialog[type=splash] {
+  margin: 0px;
+  padding: 0px;
+  /*width: 100vw !important;*/
+  height: 100vh !important;
+  width: 100%;
+  /*background-color: rgb(0, 0, 0);*/
+  background-image: url("Images/Backgrounds/BridgeScene/FallScene/IWillRemeberYou.png");
+  background-size:cover;
+  background-attachment:inherit;
+  /*color: white;*/
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+}
+dialog[type=splash]>img#FudgeStoryLogo {
+  position: absolute;
+  width: 40%;
+  height: auto;
+  border-radius: 40px;
+  margin-top: 38%;
+}
+/* Stil für das Dialogfenster */
+dialog[type="splash"] {
+    display: flex; /* Flexbox-Layout verwenden */
+    justify-content: center; /* Horizontale Ausrichtung */
+    align-items: center; /* Vertikale Ausrichtung */
+    height: 100vh; /* Vollbildhöhe */
+}
+
+/* Stil für den <p>-Tag im Dialogfenster */
+dialog[type="splash"] p {
+    font-size: 5em; /* Größere Schriftgröße, kann nach Belieben angepasst werden */
+    text-align: center; /* Zentrierter Text */
+    margin: 0; /* Entfernen von Standardabständen */
+}
+/** MENÜ STYLE & CHOICES**/
+.gameMenuCssClass {
+  left: 81%;
+  position: absolute;
+  height: auto;
+  width: 10%;
+  background-color: rgba(113, 156, 143, 0);
+  opacity: 100%;
+  text-align:right ;
+  border-style: none;
+  bottom: -1%;
+  margin: 0%;
+  /*width: 18%;*/
+}
+dialog[type="inventory"] {
+  background-color: #28bad4;
+  padding: 15px;
+  border: 2px solid #719c8f;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(113, 156, 143, 0.7);
+}
+.choicesCssClass, .inventory {
+  background-color: #f080ea8f;
+  /*width:15%;*/
+  text-align: center;
+  width: 30%;
+  /*background-color: #719c8f;*/
+  border-style:inherit;
+  border-radius: 0%;
+  /*top: 10%;*/
+}
+button{
+  background-color: #f080ea;
+  color: #ffffff;
+  border: 2px solid #719c8f;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Courier New', monospace;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+ibutton:hover {
+  background-color: #719c8f;
+  color: #f080ea;
+  border: 2px solid #f080ea;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(240, 128, 234, 0.7);
+}
+
+
+.hide{
+  display: none;
+}
+dialog[type="splash"] {
+  background-size: contain;
+  width: 100%;
+}
+
+
+speech content {
+  color: rgb(255, 255, 255);
+  font-size: 2vmin;
+}
+
+name {
+  font-size: 3vmin;
+  display: block;
+  color: rgb(143, 27, 175);
+  margin-bottom: 10px;
+}
+
+
+/** Meter Bar **/
+meter::-webkit-meter-bar {
+  background-color:rgba(113, 156, 143, 0.8);
+}
+
+meter[id="emotionMeter"] {
+  position: absolute;
+  transform: rotate(-90deg);
+  bottom: 57%;
+  left: -15%;
+  width: 35%;
+  height: 10%;
+}
+
+/**Gestaltet Füllung**/
+meter[id="emotionMeter"]::-webkit-meter-optimum-value {
+  background-image: linear-gradient(
+    90deg,
+    #d55d47 50%,
+    #eac351 100%
+    );
+}
+
+input[id="emotionalScala"] {
+  color:white;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  background-color:rgba(24, 114, 87, 0);
+  box-shadow: none;
+  font-size: 11pt;
+  position:absolute;
+  left: 1.2%;
+  top: 1%;
+  width: 25%;
+}
+
+
+.novelPageAyumi {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  left: 35%;
+  background-image: url(./Images/NovelPages/Ayumi.png);
+  position: relative;
+  height: 100% !important;
+  width: auto;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+.novelPageTakeshi {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  left: 35%;
+  background-image: url(./Images/NovelPages/Takeshi.png);
+  position: relative;
+  height: 100% !important;
+  width: auto;
+  background-size:contain;
+  background-repeat: no-repeat;
+}

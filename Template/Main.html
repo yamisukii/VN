@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.cdnfonts.com/css/manga-temple" rel="stylesheet">
+
+  <link rel="stylesheet" href="Main.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />  -->
+
+  <script src="Fudge/FudgeCore.js"></script>
+  <script src="FudgeStory/FudgeStory.js"></script>
+  <script src="./Build/Template.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <title>Gamename</title>
+  <splash src="Images/Backgrounds/BridgeScene/FallScene/IWillRemeberYou.png" />
+</head>
+
+<body>
+  <scene>
+
+    <dialog type="splash" open>
+      <p>
+        I Will remember you
+      </p>
+      <img id="FudgeStoryLogo" theme="dark" /> <!-- use "light" or "dark" -->
+    </dialog>
+
+    <canvas></canvas>
+
+
+    <speech>
+      <name><!-- The name of the character speaking --></name>
+      </br>
+      <content><!--The text the character says --></content>
+    </speech>
+
+    <dialog type="text">
+      The content of a page of text for reading
+    </dialog>
+
+    <dialog type="inventory">
+      <button type="button">Schließen</button>
+
+      <ul>
+        <!-- <li> a description could be written in here </li>
+        <li>b</li>
+        <li>c</li>-->
+      </ul>
+    </dialog>
+
+    <div type="interface">
+      <input id="emotionalScala" type="text" value="Mood" disabled>
+      <!-- für value der Skala; Füllung -->
+      <meter id="emotionMeter" name="moodPoints" min="0" max="10" disabled></meter>
+    </div>
+
+  </scene>
+</body>
+
+</html>
