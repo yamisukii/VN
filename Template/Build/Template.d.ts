@@ -30,11 +30,6 @@ declare namespace VisualNovel {
 }
 declare namespace VisualNovel {
     let transitions: {
-        puzzle: {
-            duration: number;
-            alpha: string;
-            edge: number;
-        };
         water: {
             duration: number;
             alpha: string;

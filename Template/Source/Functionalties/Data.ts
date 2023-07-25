@@ -3,11 +3,6 @@ namespace VisualNovel {
   // **** DEFINITIONEN ****
   // define transitions
   export let transitions = {
-    puzzle: {
-      duration: 1.5,
-      alpha: "/Template/FreeTransitions/jigsaw_06.jpg",
-      edge: 1
-    },
     water: {
       duration: 1.5,
       alpha: "/Template/FreeTransitions/Others/002.jpg",
