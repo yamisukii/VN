@@ -56,10 +56,6 @@ declare namespace VisualNovel {
             edge: number;
         };
     };
-    let sound: {
-        nightclub: string;
-        dystopian: string;
-    };
     let soundKaIntro: {
         traffic1: string;
         traffic2: string;

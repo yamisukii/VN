@@ -158,10 +158,6 @@ var VisualNovel;
             edge: 0.7
         },
     };
-    VisualNovel.sound = {
-        nightclub: "/Template/Audio/Nightclub.ogg",
-        dystopian: "/Template/Audio/Dystopian.ogg"
-    };
     VisualNovel.soundKaIntro = {
         traffic1: "/Template/Audio/Kapitel1/Traffic_1.wav",
         traffic2: "/Template/Audio/Kapitel1/Traffic_2.wav",

@@ -30,11 +30,6 @@ namespace VisualNovel {
     },
   };
 
-  export let sound = {
-    nightclub: "/Template/Audio/Nightclub.ogg",
-    dystopian: "/Template/Audio/Dystopian.ogg"
-  };
-
   export let soundKaIntro = {
     traffic1: "/Template/Audio/Kapitel1/Traffic_1.wav",
     traffic2: "/Template/Audio/Kapitel1/Traffic_2.wav",
