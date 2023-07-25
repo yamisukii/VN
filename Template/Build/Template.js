@@ -582,7 +582,7 @@ var VisualNovel;
         // ƒS.Sound.fade(sound.dystopian, 2, 7, true);
         VisualNovel.ƒS.Speech.hide();
         console.log();
-        VisualNovel.ƒS.Text.print("Mit M öffnest du das Menü");
+        // ƒS.Text.print("Mit M öffnest du das Menü");
         VisualNovel.ƒS.Sound.play(VisualNovel.soundKaIntro.traffic2, 0.3, true);
         VisualNovel.ƒS.Sound.fade(VisualNovel.soundKaIntro.nachdenklich, 0.5, 7, true);
         await VisualNovel.ƒS.Location.show(VisualNovel.locations.tokyoWalkingHome);

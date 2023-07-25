@@ -16,7 +16,7 @@ namespace VisualNovel {
     // ƒS.Sound.fade(sound.dystopian, 2, 7, true);
     ƒS.Speech.hide();
     console.log()
-    ƒS.Text.print("Mit M öffnest du das Menü");
+    // ƒS.Text.print("Mit M öffnest du das Menü");
     ƒS.Sound.play(soundKaIntro.traffic2, 0.3, true);
     ƒS.Sound.fade(soundKaIntro.nachdenklich, 0.5, 7, true);
     await ƒS.Location.show(locations.tokyoWalkingHome);
