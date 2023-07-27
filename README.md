@@ -2,7 +2,7 @@ Visual_Novel SoSe2023
 
 Link zum Repository: https://github.com/yamisukii/VN
 
-Link zur Anwendung: https://yamisukii.github.io/VN/Template/Main.html
+Link zur Anwendung: https://yamisukii.github.io/VN/Game/Main.html
 
 Link zum Konzept-Dokument: https://github.com/yamisukii/VN/blob/main/Visual_Novel_Konzept.pdf
 
