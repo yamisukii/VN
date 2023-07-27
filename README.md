@@ -10,6 +10,6 @@ Flow-Diagramme:
 https://github.com/yamisukii/VN/blob/main/Schwimmerin_FlowDiagram.jpg
 https://github.com/yamisukii/VN/blob/main/TakeshiFall_FlowDiagram.jpg
 
-Link zum Quellcode: https://github.com/yamisukii/VN/tree/main/Template
+Link zum Quellcode: https://github.com/yamisukii/VN/tree/main/Game
 
 Link zum Zip-Archiv: https://drive.google.com/file/d/1EdVE6UP48o63RcnswtJlL9JACG6fFAUf/view?usp=sharing
