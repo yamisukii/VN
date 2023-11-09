@@ -1,6 +1,6 @@
 # I Will Remember You - Visual Novel
 
-![Watch the video](Game/Images/Backgrounds/BridgeScene/FallScene/IWillRemeberYou.png)
+![Try it out](https://github.com/yamisukii/VisualNovel/blob/main/Game/Images/Backgrounds/BridgeScene/FallScene/IWillRemeberYou.png)
 ## Overview
 "I Will Remember You" is a visual novel that immerses players in the life of 19-year-old Jay, a typical college student in Tokyo, Japan. One evening, a chance encounter turns his entire life—and even the afterlife—upside down in a dramatic twist of fate.
 
