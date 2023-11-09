@@ -21,8 +21,6 @@ Furthermore, the story is uniquely written, infused with profound philosophical 
 - [Source Code](https://github.com/yamisukii/VN/tree/main/Game)
 - [Zip Archive](https://drive.google.com/file/d/1EdVE6UP48o63RcnswtJlL9JACG6fFAUf/view?usp=sharing)
 
-## Installation
-Please refer to the [main game page](https://yamisukii.github.io/VN/Game/Main.html) for detailed installation instructions.
 
 ## Support
 For support, please open an issue in the [GitHub repository](https://github.com/yamisukii/VN/issues), or contact the development team through the links provided on the game's main page.
