@@ -15,11 +15,11 @@ All backgrounds and characters for the novel have been created using the artific
 Furthermore, the story is uniquely written, infused with profound philosophical and psychological themes.
 
 ## Links
-- [Repository](https://github.com/yamisukii/VN)
-- [Play the Game](https://yamisukii.github.io/VN/Game/Main.html)
-- [Concept Document](https://github.com/yamisukii/VN/blob/main/Visual_Novel_Konzept.pdf)
-- [Flow Diagrams](https://github.com/yamisukii/VN/blob/main/Schwimmerin_FlowDiagram.jpg)
-- [Source Code](https://github.com/yamisukii/VN/tree/main/Game)
+- [Repository](https://github.com/yamisukii/VisualNovel)
+- [Play the Game](https://yamisukii.github.io/VisualNovel/Game/Main.html)
+- [Concept Document](https://github.com/yamisukii/VisualNovel/blob/main/Visual_Novel_Konzept.pdf)
+- [Flow Diagrams](https://github.com/yamisukii/VisualNovel/blob/main/Schwimmerin_FlowDiagram.jpg)
+- [Source Code](https://github.com/yamisukii/VisualNovel/tree/main/Game)
 - [Zip Archive](https://drive.google.com/file/d/1EdVE6UP48o63RcnswtJlL9JACG6fFAUf/view?usp=sharing)
 
 
